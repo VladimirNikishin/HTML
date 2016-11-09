@@ -1,0 +1,20 @@
+*{
+	margin: 0 ;
+	padding:0;
+}
+body{
+       background-color: #797878;
+}
+
+#wrapper{
+            width: 1270px;
+	        margin: auto;
+            height: 100%;
+}
+.head{
+    
+        position: absolute;
+        width: 1270px;
+        height: 200px; 
+        background-color: black;
+}

@@ -1,0 +1,36 @@
+*
+{
+	font-family: serif;
+	background-color: #87CEEB;
+	
+}
+
+ul
+{
+	list-style-type: none;
+	font-size: large;
+}
+lo
+{
+	list-style-type: none;
+}
+
+h1
+{
+	text-align: center;
+}
+
+img
+{
+	
+    border: 0px solid #800000;
+    width: 30%;
+    height: 30%;
+    border-width: 7px;
+}
+	
+	
+p
+{
+	font-size: large;	
+}

@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(fon.jpg); 
+	background-size: 100%; 
+	background-attachment: fixed;
+	
+}
+h4{
+	text-align: center;
+	font-size: 25px;
+	width: 100px;
+	margin-left: 47%;
+	
+}
+h1{
+	text-align: center;
+	margin-top: 10%;
+	color: #E0FFFF;
+}
+li{
+	
+	text-align: center;
+	color: #E0FFFF;
+	font-size: 20px;
+}
+.per{
+	position: absolute;
+	margin-top: -20%;
+	min-height: 900px;
+	min-width: 1270px;
+	
+}
+.per a{
+	display: block;
+	height: 500px;
+	width: 800px;
+}
+ul{
+	margin-left: 50px;
+	margin-right: 50px;
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}

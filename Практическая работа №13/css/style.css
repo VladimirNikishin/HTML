@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@keyframes shadow 
+    {0%{transform:scale(0);opacity:0}10%{transform:scale(0.1);opacity:.1;transform:scale(0.1);opacity:.1}20%{transform:scale(0.2);opacity:.2}30%{transform:scale(0.3);opacity:.3}40%{transform:scale(0.4);opacity:.4}50%{transform:scale(0.5);opacity:.5}60%{transform:scale(0.6);opacity:.6}70%{transform:scale(0.7);opacity:.7}80%{transform:scale(0.8);opacity:.8}90%{transform:scale(0.9);opacity:.9}100%{transform:scale(1);opacity:1}}
+		
+		ul
+	{
+		font-size: x-large;
+		list-style-type: none;
+	}
+	
+	a:link
+		{
+		color: green; font-weight: 100; text-decoration: none;
+		}
+		a:hover
+		{
+		color: green; font-weight: bold; text-decoration: none;
+		}
+		a:visited
+		{
+		color: #594425; font-weight: bold; text-decoration: none;
+		}
+		
+	li{
+		text-align: center;
+		background: #ede3b4;
+		border-radius: 15px;
+		animation-name: shadow;
+		-webkit-animation-name: shadow; 
+		animation-duration: 0.7s; 
+		-webkit-animation-duration: 1s;
+		animation-timing-function: ease; 
+		-webkit-animation-timing-function: ease-in; 
+		visibility: visible !important; 
+	}	
+.center{
+	
+	max-width: 1270px;
+	margin: 0 auto;
+}
+.name{
+	position: relative;
+	width: 500px;
+	margin-left: 30%;
+	margin-top: 20%;
+}

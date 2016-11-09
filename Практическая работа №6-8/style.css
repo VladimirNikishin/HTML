@@ -1,0 +1,334 @@
+@font-face{
+    font-family: "futuraBT";
+    src: url(./fonts/84804563.ttf);
+}
+@font-face{
+    font-family: "FeaturedItem";
+    src: url(./fonts/7fonts.ru_FeaturedItem.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+/*Начало шапки*/
+#header{
+    width: 100%;
+    height: 155px;
+    background: url( images/head/bg-header.png );
+}
+.bg-top{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background: url( images/head/bg-top.png ) repeat-x;
+}
+.bg-top-two{
+    position: relative;
+    width: 960px;
+    height: 75px;
+    background: url( images/head/bg-top-two.png );
+    margin-top: -5px;
+    margin-left: 160px;
+    z-index:2;
+}
+/*Здесь мы создаем контейнер, в котором размещаем лого, поиск и соц. сети*/
+.container{
+    position: relative;
+    width: 100%;
+    height: 60px; 
+    margin-top: -60px;
+    z-index:1;
+}
+.logo{
+    position: relative;
+    float: left;
+    width: 178px;
+    height: 47px;
+    background: url( images/head/logo.png ) no-repeat;
+    margin-left: 183px;
+    margin-top: 3px;
+}
+.social{
+    position: relative;
+    float: right;
+    width: 62px;
+    height: 62px;
+    background: url( images/head/social.png ) no-repeat; 
+    margin-right: 190px;
+}
+/*Иконки соц. сетей*/
+.social a{
+    position: absolute;
+    float: left;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    margin-top: 7px;
+    cursor: pointer;
+}
+a.fb{
+    background: url( images/head/fb.png ) no-repeat;
+    margin-top: 12px;
+    margin-left: 13px;
+}
+a.tw{
+    background: url( images/head/twitter.png ) no-repeat;
+    margin-top: 12px;
+    margin-left: 35px;
+}
+a.rss{
+    background: url( images/head/rss.png ) no-repeat;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+a.v{
+    background: url( images/head/v.png ) no-repeat;
+    margin-top: 17px;
+    margin-left: 31px;
+}
+.poisk{
+    position: relative;
+    float: right;
+    width: 271px;
+    height: 37px;
+    background: url( images/head/poisk.png ) no-repeat;
+    margin-right: 8px;
+}
+.knopka{
+    position: relative;
+    float: right;
+    width: 23px;
+    height: 23px;
+    background: url( images/head/knopka.png ) no-repeat;
+    margin: 7 7 0 0 ;
+}
+
+/*Начало меню*/
+#menu{
+    position: relative;
+    width: 100%;
+    height: 33px; 
+    background: url( images/head/bg-menu.png ) repeat-x;
+    margin-top: 15px;
+}
+.nav{
+    float: left;
+    list-style: none;
+    margin-left: 175px;
+}
+.nav li {
+    float: left;
+    margin-left: 60px;
+    padding: 5px 0;
+    font-family: "futuraBT";
+    display: flex;
+}
+.nav a {
+    color: #2c394e;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*Конец меню*/
+/*Конец шапки*/
+
+
+.poloska{
+    background: url( images/content/poloska-one.png);
+    width: 100%;
+    height: 13px;
+    margin-top: -2px;
+}
+
+
+
+/*Начало содержания*/
+.content{
+	position: relative;
+    width: 100%;
+    
+    background: url( images/content/fon.png ) repeat-y;
+}
+.container-slider{
+    position: relative;
+    width: 906px;
+    height: 317px;
+    background: url( images/content/Slider/fon.png) ;
+    margin-top: 30px;
+    margin-left: 190px;
+}
+P{
+    text-align: center;
+    padding-top: 4px;
+}
+.knopku{
+    margin-top: -170px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+
+.knopka-left{
+    position: relative;
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: url( images/content/Slider/knopka-left.png);  
+}
+.knopka-right{
+    position: relative;
+    float: right;
+    width: 25px;
+    height: 25px;
+    background: url( images/content/Slider/knopka-right.png);
+}
+/*Здесь будет основная информация контента*/
+.back-fon{
+	position: absolute;
+	width: 905px;
+	min-height: 900px;
+	background: url(images/content/Contact/back-fon-one.png);
+	margin-left: 190px;
+	margin-top: 30px;
+}
+.back-fon-two{
+	position: absolute;
+	width: 899px;
+	min-height: 890px;
+	background: url(images/content/Contact/back-fon-two.png);
+	margin-left: 193px;
+	margin-top: 35px;
+}
+.stroka-one{
+	position: absolute;
+	width: 200px;
+	height: 570px;
+	margin-top: 40px;
+	margin-left: 90px;
+}
+.Box-one{
+	position: relative;
+    float: right;
+    width: 261px;
+    height: 285px;
+    background: url( images/content/Contact/BD-knopka.png) no-repeat;
+}
+.shrift p{
+	font-family: "FeaturedItem";
+	text-decoration: none;
+	margin-top: -4px;
+	margin-left: 30px;
+	text-align: left;
+}
+.ikonka-one{
+	position: absolute;
+    width: 65px;
+    height: 65px;
+	margin-left: 195px;
+	background: url( images/content/Contact/ikonka-box-one.png) no-repeat;
+}
+.text {
+		margin-top: 65px;
+}
+.text p{
+	font-size: 10px;
+	text-align: justify;
+	text-align-last: justify;
+	line-height: 1.5;
+}
+.box-video{
+	width: 260px;
+	height:100px;
+	background: url( images/content/Contact/box-video.png) no-repeat;
+	margin-top: 30px;
+}
+.stroka-two{
+	position: absolute;
+	width: 200px;
+	height: 570px;
+	margin-top: 40px;
+	margin-left: 380px;
+}
+.Box-two{
+	position: relative;
+    float: right;
+    width: 261px;
+    height: 285px;
+    background: url( images/content/Contact/BD-knopka.png) no-repeat;
+	margin-top: 30px;
+}
+.ikonka-two{
+	position: absolute;
+    width: 65px;
+    height: 65px;
+	margin-left: 195px;
+	background: url( images/content/Contact/ikonka-box-two.png) no-repeat;
+}
+.stroka-three{
+	position: absolute;
+	width: 200px;
+	height: 570px;
+	margin-top: 40px;
+	margin-left: 670px;
+}
+.ikonka-three{
+	position: absolute;
+    width: 65px;
+    height: 65px;
+	margin-left: 195px;
+	background: url( images/content/Contact/ikonka-box-three.png) no-repeat;
+}
+.stroka-four{
+	width: 800px;
+	height: 300px;
+	margin-top: 700px;
+	margin-left: 70px;
+}
+.text-two p{
+	text-align: left;
+}
+.ikonka-box-four{
+	position: absolute;
+    width: 175px;
+    height: 175px;
+	background: url( images/content/Contact/ikonka-box-four.png) no-repeat;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    
+    
+}
+#container-footer{
+    
+}
+
+
+
+
+
+
+

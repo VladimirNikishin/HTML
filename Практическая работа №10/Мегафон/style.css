@@ -1,0 +1,48 @@
+﻿table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	border-collapse: collapse;
+	color: #323232;
+	margin: 15px auto;
+	border: 1px solid #238C47;
+	min-width: 900px;
+}
+caption {
+	padding: 10px;
+	color: white;
+	background: #E6E7E8;
+	font-size: 18px;
+	text-align: left;
+	font-weight: 900;
+	border-radius: 20px 20px 0 0;
+	border: 1px solid #238C47;
+	border-bottom: none;
+
+}
+th {
+	border-bottom: 1px solid #238C47;
+	padding: 15px;
+	text-align: center;
+	
+}
+td {
+	padding: 10px;
+	text-align: center;
+	vertical-align: top;
+}
+tr:nth-child(odd) {
+	background: white;
+	text-align: left;
+	vertical-align: top;
+}
+tr:nth-child(even) {
+	background: #E6E7E8;
+}
+td:first-child{
+	width: 350px;
+	word-wrap: break;
+	text-align: left;
+}
+
+tr:hover {
+	background: lightgray;
+}
